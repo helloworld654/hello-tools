@@ -1,0 +1,5 @@
+arm-none-eabi
+1.tar -jxvf xx.tar.bz2 (-C .)
+2.open /etc/profile   add export PATH=$PATH:/your arm-none-eabi path/gcc-arm-none-eabi-4_9-2014q4/bin to this file
+3.source /etc/profile   or  reboot
+4.arm-none-eabi-gcc -v
